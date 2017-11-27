@@ -13,7 +13,7 @@
       "connection": "azure-meetup-muc_STORAGE",
       "name": "outQueue",
       "queueName": "sample-queue"
-    }
+    },
     {
       "type": "http",
       "direction": "out",
