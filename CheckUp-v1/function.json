@@ -1,0 +1,23 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req"
+    },
+    {
+      "type": "queue",
+      "direction": "out",
+      "connection": "azure-meetup-muc_STORAGE",
+      "name": "outQueue",
+      "queueName": "sample-queue"
+    }
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    }
+  ]
+}
