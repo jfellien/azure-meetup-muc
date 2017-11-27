@@ -6,7 +6,7 @@ module.exports = function (context, req) {
         const response_message = `"Hello ${ (req.query.name || req.body.name) }`;
 
         context.bindings.outQueue = {
-            message = response_message
+            message: response_message
         }
 
         context.res = {
