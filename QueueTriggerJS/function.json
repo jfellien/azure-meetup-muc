@@ -1,0 +1,19 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "sample-queue",
+      "connection": "azure-meetup-muc_STORAGE"
+    },
+    {
+      "type": "table",
+      "connection": "azure-meetup-muc_STORAGE",
+      "direction": "out",
+      "name": "outTable",
+      "tableName": "sampletable"
+    }
+  ]
+}
